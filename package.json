@@ -1,0 +1,22 @@
+{
+  "name": "subluna",
+  "version": "0.0.1",
+  "description": "Small role playing game engine.",
+  "main": "subluna.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zcoulombe/subluna.git"
+  },
+  "author": "Zachary Coulombe <zacharycoulombe@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zcoulombe/subluna/issues"
+  },
+  "homepage": "https://github.com/Zcoulombe/subluna#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
