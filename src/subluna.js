@@ -1,0 +1,34 @@
+module.exports = function(options){
+  return {
+    // TODO: Create Engine Object
+    buildGame:function(){
+      // TODO: Create Game Object
+      /* Game
+        The build process should:
+        1.  Generate World
+          a.  Assign world description
+          b.  Determine Time of day, and season.
+          c.  
+        1.  Generate Room Layout
+          a.  Select the rooms to be included in the Game
+              from the room set provided.
+          b.  Generate room connection network (State Machine).
+          c.  Traverse the network to assure that all rooms
+              assure that all rooms are accessable.
+        2.  Assign Special Events To Rooms
+          a.  Select player starting point.
+          b.  Spawn NPC's.
+            i.  Assign dialog and quest options.
+          c.  Spawn enemy encounters.
+        3.  Generate Room Content
+          a.  Fill rooms with props and scenery.
+          b.  Create containers.
+          c.  Fill containers with stuff.
+          d.  Test connections to assure that all
+              content is accessable.
+
+      */
+      return {};
+    }
+  };
+}
