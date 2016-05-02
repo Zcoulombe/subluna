@@ -1,5 +1,8 @@
 var gulp = require('./gulp')([
-  "test"
+  "test",
+  'browserify',
+  'uglify'
 ]);
 
-gulp.task('default',["test"]);
+gulp.task('build',['browserify','uglify']);
+gulp.task('default',['build']);
