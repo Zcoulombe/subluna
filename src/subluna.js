@@ -1,6 +1,15 @@
+/**
+ * Entry Point
+ * @param  {Object} options Meta-data
+ * @return {Engine}         Game engine instance.
+ */
 module.exports = function(options){
   return {
     // TODO: Create Engine Object
+    /**
+     * buildGame - Construct game from Meta-data
+     * @return {Game} Game Instance
+     */
     buildGame:function(){
       // TODO: Create Game Object
       /* Game
@@ -8,7 +17,7 @@ module.exports = function(options){
         1.  Generate World
           a.  Assign world description
           b.  Determine Time of day, and season.
-          c.  
+          c.
         1.  Generate Room Layout
           a.  Select the rooms to be included in the Game
               from the room set provided.
