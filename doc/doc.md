@@ -1,19 +1,28 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-/**
- * Entry Point
- * @param  {Object} options Meta-data
- * @return {Engine}         Game engine instance.
- */
-module.exports = function(options){
-  return {
-    // TODO: Create Engine Object
-    /**
-     * buildGame - Construct game from Meta-data
-     * @return {Game} Game Instance
-     */
-    buildGame:function(){
-      // TODO: Create Game Object
-      /* Game
+
+
+<!-- Start src\subluna.js -->
+
+## exports(options)
+
+Entry Point
+
+### Params:
+
+* **Object** *options* Meta-data
+
+### Return:
+
+* **Engine** Game engine instance.
+
+## buildGame()
+
+buildGame - Construct game from Meta-data
+
+### Return:
+
+* **Game** Game Instance
+
+Game
         The build process should:
         1.  Generate World
           a.  Assign world description
@@ -37,10 +46,5 @@ module.exports = function(options){
           d.  Test connections to assure that all
               content is accessable.
 
-      */
-      return {};
-    }
-  };
-}
+<!-- End src\subluna.js -->
 
-},{}]},{},[1]);
