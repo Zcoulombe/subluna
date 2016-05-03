@@ -1,0 +1,6 @@
+# Ignore everything except build files
+doc
+gulp
+node_modules
+src
+gulpfile.js
